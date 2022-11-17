@@ -82,18 +82,20 @@ function Install() {
                     React Color Picker field for Hygraph, powered by React Color
                     package.
                 </Text>
-                <Box alignItems="left">
-                    <Button
-                        onClick={() => {
-                            updateInstallation({
-                                status: "COMPLETED",
-                                config: {},
-                            });
-                        }}
-                    >
-                        Save
-                    </Button>
-                </Box>
+                <Flex gap="16" flexDirection={["column", "row"]}>
+                    <Box p="4">
+                        <Button
+                            onClick={() => {
+                                updateInstallation({
+                                    status: "COMPLETED",
+                                    config: {},
+                                });
+                            }}
+                        >
+                            Save
+                        </Button>
+                    </Box>
+                </Flex>
             </Stack>
         </Stack>
     );
