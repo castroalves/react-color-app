@@ -45,16 +45,20 @@ function Setup() {
                             Learn more <Box as={ExternalLink} size="icon.16" />
                         </AlertLink>
                     </Alert>
-                    <Button
-                        onClick={() => {
-                            updateInstallation({
-                                status: "COMPLETED",
-                                config: {},
-                            });
-                        }}
-                    >
-                        Save
-                    </Button>
+                    <Flex gap="16" flexDirection={["column", "row"]}>
+                        <Box p="4">
+                            <Button
+                                onClick={() => {
+                                    updateInstallation({
+                                        status: "COMPLETED",
+                                        config: {},
+                                    });
+                                }}
+                            >
+                                Save
+                            </Button>
+                        </Box>
+                    </Flex>
                 </Stack>
             </Stack>
         );
