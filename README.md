@@ -31,4 +31,13 @@ Click [here](https://app.hygraph.com/apps/react-color) to install the Lokalise A
 4. Locate the **React Color Picker field** of the screen and click on any color to select it.
 5. Now that the color has been added to the entry, you can click on `Save` or `Save & Publish`, as needed.
 
+## 🤝 Contributing
 
+Thanks for being interested in contributing! 
+
+We're so glad you want to help! All types of contributions are welcome, such as bug fixes, issues, or pull requests.
+
+**Contributors**
+
+- [@castroalves](https://github.com/castroalves) Cadu de Castro Alves
+- …[and you](https://github.com/castroalves/react-color-app/issues)?
