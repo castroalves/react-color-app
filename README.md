@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is the React Color Picker field for Hygraph, powered by [React Color](https://github.com/casesandberg/react-color) package.
 
-## Getting Started
+## Requirements
 
-First, run the development server:
+To use this app, certain pre-requisites have to be met:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- You must have a Hygraph account. If you don't have one, you can create one [here](https://app.hygraph.com/signup).
+- You must have a Hygraph [project](https://hygraph.com/docs/guides/getting-started/create-a-project). If you don't have one, check the [starters](https://hygraph.com/marketplace#starters).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Install the React Color Picker field
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Click [here](https://app.hygraph.com/apps/react-color) to install the Lokalise App on Hygraph, then follow these steps:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. In the dropdown, select which project you want to install the app in, then click on the `Add App` button. You should be redirected to your Hygraph project dashboard.
+2. Click on the `Save` button to finish the installation. A pop-up notification in the lower right corner of the screen will indicate that the changes have been saved.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Add the React Color Picker field to your model
 
-## Learn More
+1. Navigate to the **Schema** builder.
+2. Select the model that you would like to add the **React Color Picker** field to.
+3. Select the **React Color Picker** field from the **Add fields** right sidebar.
+4. Complete the `Display name` field, and the `API ID` will be auto-filled by the system. Optionally, you can also add a `Description`. This screen allows you to control different properties of your **React Color Picker** field: you can allow multiple values, by selecting the checkboxes under the `Field options` section of the screen.
+5. Optionally, you can also add the `Colors` you want to allow the users to pick on your field, like your brand colors. If you don't need it, just leave this field blank.
+6. Click on the `Create` button.
 
-To learn more about Next.js, take a look at the following resources:
+## Use the React Color Picker field in your Hygraph project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Navigate to the **Content** editor.
+2. Select the model that you configured the React Color Picker field for.
+3. Click on the `+ Create entry` button or, alternatively, edit an existing entry.
+4. Locate the **React Color Picker field** of the screen and click on any color to select it.
+5. Now that the color has been added to the entry, you can click on `Save` or `Save & Publish`, as needed.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
