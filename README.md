@@ -9,7 +9,7 @@ To use this app, certain pre-requisites have to be met:
 
 ## Install the React Color Picker field
 
-Click [here](https://app.hygraph.com/apps/react-color/new) to install the Lokalise App on Hygraph, then follow these steps:
+Click [here](https://app.hygraph.com/apps/react-color/new) to install React Color Picker App on Hygraph, then follow these steps:
 
 1. In the dropdown, select which project you want to install the app in, then click on the `Add App` button. You should be redirected to your Hygraph project dashboard.
 2. Click on the `Save` button to finish the installation. A pop-up notification in the lower right corner of the screen will indicate that the changes have been saved.
